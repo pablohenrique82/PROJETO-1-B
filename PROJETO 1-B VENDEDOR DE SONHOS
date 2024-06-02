@@ -1,0 +1,16 @@
+# Entrada de dados
+quantidade_sonhos = int(input("Digite a quantidade de sonhos vendidos: "))
+
+# Verificação do preço unitário
+if quantidade_sonhos >= 100:
+    preco_unitario = 5.50
+else:
+    preco_unitario = 8.00
+
+# Cálculo do valor total
+valor_total = quantidade_sonhos * preco_unitario
+
+# Saída de resultados
+print("Total de sonhos vendidos:", quantidade_sonhos)
+print("Preço médio da unidade:", preco_unitario)
+print("Valor total vendido:", valor_total)
